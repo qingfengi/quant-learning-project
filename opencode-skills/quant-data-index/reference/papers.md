@@ -1,13 +1,15 @@
 # 论文索引：检索路径与必读清单
 
+以下为公开入口，接口 URL 予以保留。服务商的鉴权、额度和可达性可能变化；这些链接不代表持续免费或持续可用。自带工具仅实现 arXiv 与 Crossref 的小样本检索。
+
 ## 1. arXiv（首选，API 完全开放）
 - 列表: https://arxiv.org/list/q-fin/recent
-- API: http://export.arxiv.org/api/query?search_query=all:stock+prediction&max_results=5
+- API: https://export.arxiv.org/api/query?search_query=all:stock+prediction&max_results=5
 
 ## 2. Crossref（有 DOI 的一切都可查）
 - API: https://api.crossref.org/works?rows=5&query=quantitative+trading
 
-## 3. OpenAlex（引文图谱，带 mailto 即可白嫖高质量数据）
+## 3. OpenAlex（引文图谱，鉴权与额度以当前官方政策为准）
 - API: https://api.openalex.org/works?search=stochastic+volatility&per-page=5&mailto=you@example.com
 
 ## 4. Semantic Scholar（免费 API，严格遵守批次大小）
